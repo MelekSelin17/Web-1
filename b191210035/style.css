@@ -1,0 +1,378 @@
+
+.genel{
+	width:%100;
+	background-color:	#DCDCDC;
+	height:580px;
+	margin:0 auto;
+	
+	}
+
+.menu{
+    background-color:#333;
+    width:240px;
+    margin-top:0px;
+    list-style:none;
+	float:left;
+}
+
+.menu ul{
+	list-style:none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu ul li a {
+	 text-decoration: none;
+    color: #fff;
+    padding: 36px;
+    display: block;
+    border-bottom:1px solid #282828;
+    font:bold 20px Times New Roman;
+   
+
+
+}
+.menu ul li a:hover{
+	background-color: #C8C8C8 ;
+	color:black;
+
+}
+
+.icerik{
+	background-color:#DCDCDC;
+	width:500px;
+	height:400px;
+	margin-left:250px;
+	padding:20px;
+	margin-top:20px;
+	font-size: 20px;
+	font-family:arial;
+}
+
+.resim img{
+	width400px; height:400px; margin-left:600px;
+ float:left;	 
+ margin-top:-350px;
+	
+}
+.hakkimda h1{
+    font-size:50px;
+	margin-left:50px;
+	padding:20px;
+	color:#d05629;
+	font-family:arial;
+
+
+}
+.hepsi{
+		width:%100;
+	background-color:#2F4F4F;
+	height:580px;
+	margin:0 auto;
+}
+.giris {
+	font-family:sans-serif;
+	background:#34495e;
+}
+.box {
+	width:%30px;
+	height:%30px;
+	padding:20px;
+	position:absolute;
+	top:15%;
+	left:40%;
+	transform:translate (-50%,-50%);
+	background:#191919;
+	text-align:center;
+}
+.box h1 {
+	color:white;
+	text-transform:uppercase;
+	font-weight:500;
+}
+.box input[type="text"], .box input[type="password"]
+{
+	border:0;
+	background:none;
+	display:block;
+	margin:20px auto;
+	text-align:center;
+	border:2px solid #3498db;
+	padding: 14px 10px;
+	width:%30px;
+	outline:none;
+	color:white;
+	border-radius: 24px;
+	transition:0.25s;
+}
+.box input[type="text"]:focus, .box input[type="password"]
+{
+	width:280px;
+	border-color:#2ecc71;
+}
+.box input[type="submit"]
+{
+	border:0;
+	background:none;
+	display:block;
+	margin:20px auto;
+	text-align:center;
+	border:2px solid :#2ecc71;
+	padding: 14px 40px;
+	width:200px;
+	outline:none;
+	color:white;
+	border-radius: 24px;
+	transition:0.25s;
+	font-size:20px;
+}
+.box input[type="submit"]:hover{
+	background:#2ecc71
+}
+.özgecmisGenel{
+		width:%100;
+	background-color:#390f06;
+	height:580px;
+	margin:0 auto;
+
+}
+.egitimBilgi{
+	width:400px;
+	height:450px;
+	padding:0px;
+	position:absolute;
+	top:5%;
+	left:20%;
+	text-align:center;
+}
+.egitimBilgi h1{
+	margin-top:0px;
+   font-size:40px;
+   text-align:left;
+   color:white;
+}
+.egitimBilgi td,tr
+{      margin-left:5px;
+	   color:white;
+	   font-size:20px;
+	   text-align:center;
+	   outline:none;
+	   transition:0.25s;
+}
+.egitimBilgi table {
+	background-color:#5f2e23;
+	margin-top: -360px;
+}
+.ozgecmis {
+	width:%10px;
+	height:%20px;
+	padding:20px;
+	position:absolute;
+    top:0%;
+	margin-left: 450px;
+    color:white;
+	font-size:%10px;
+
+}
+.img img {  
+   margin-top: -50px;
+    width:300px;
+	height:400px;
+	margin-left :750px;
+}
+.genelSehrim
+{
+	width:%100;
+	background-color:#3e3736;
+	height:580px;
+	margin:0 auto;
+
+}
+.bilgi{
+	width:400px;
+	margin-top:20px;
+	height:450px;
+	padding:0px;
+	position:absolute;
+	top:5%;
+	left:20%;
+	text-align:center;
+
+	font-family:arial;
+	
+}
+.bilgi h1 {
+	color:white;
+	margin-top:0px;
+   font-size:30px;
+   text-align:center;
+}
+
+.video a {
+	text-align:center;
+	margin-left:30px;
+	color:	#CFD8DC ;
+    font-size:25px;
+    font-family:arial;
+	text-decoration:none;
+}
+.ısparta{
+	     margin-left:5px;
+	   color:white;
+	   font-size:12px;
+	   text-align:center;
+	   font-family: arial;
+}
+.resimler{
+	width:400px;
+	height:350px;
+	padding:20px;
+	position:absolute;
+    top:10%;
+	margin-left: 850px;
+
+}
+.carousel-item img{
+	width:400px;
+	height:350px;
+}
+.genelMiras{
+	width:%100;
+	background-color:#7c9993;
+	height:580px;
+	margin:0 auto;
+}
+.miras h1 {
+		text-align:center;
+}
+.miras {
+	text-align:center;
+	width:900px;
+	margin-top:-13px;
+	margin-left:5px;
+	height:550px;
+	padding:0px;
+	position:absolute;
+	top:7%;
+	left:20%;
+	text-align:left;
+    font-family: arial;
+	font-size: 12px;
+	color:#333;
+	
+}
+.miras a 
+{
+	
+	position:absolute;
+	top:90%;
+	left:70%;
+	color: #333;
+	 border-bottom:1px solid #282828;
+    font:bold 20px arial;
+	list-style:none;
+	text-decoration:none;
+}
+.genelİlet {
+		width:%100;
+	background-color:#716769;
+	height:580px;
+	margin:0 auto;
+}
+.ulasin {
+		width:600px;
+	height:250px;
+	padding:0px;
+	position:absolute;
+	top:20%;
+	left:20%;
+	text-align:center;
+	background:#a09193;
+	font-size: %30;
+}
+.ulasin h1 {
+	color:	#263238;
+	margin-top:0px;
+   font-size:30px;
+   text-align:center;
+}
+.ulasin h2 {
+	color:	#2F4F4F;
+	margin-top:0px;
+   font-size:30px;
+   text-align:left;
+}
+.linkler{
+	   margin-left:5px;
+	   color:white;
+	   font-size:20px;
+	   text-align:left;
+}
+.logo1 img {
+	width:50px;
+	height:50px;
+    position:absolute;
+	top:-30%;
+	left:75%;
+	margin-left:420px;
+}
+.logo2 img {
+	width:50px;
+	height:50px;
+    position:absolute;
+	top:-30%;
+	left:85%;
+	margin-left:430px;
+	
+}
+.logo3 img {
+	width:50px;
+	height:50px;
+    position:absolute;
+	top:-30%;
+	left:95%;
+	margin-left:450px;
+	
+}
+.row
+{
+	margin-left:500px;
+}
+ .carousel-item{
+    height: 325px;
+ }
+ .aboutMe{
+    background: #fff;
+    padding: 32px;
+    border-radius: 8px;
+    height: 400px;
+    margin-bottom: 1rem;
+    border: 1px solid aquamarine;
+	margin-left: 100px;
+}
+
+.aboutMe h5{
+    text-decoration: underline;
+}
+
+.aboutMe .img-content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.aboutMe .img-content img{
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+	
