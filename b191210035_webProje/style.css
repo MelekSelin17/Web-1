@@ -2,7 +2,7 @@
 .genel{
 	width:%100;
 	background-color:	#DCDCDC;
-	height:580px;
+	height:600px;
 	margin:0 auto;
 	
 	}
@@ -68,7 +68,7 @@
 .hepsi{
 		width:%100;
 	background-color:#2F4F4F;
-	height:580px;
+	height:600px;
 	margin:0 auto;
 }
 .giris {
@@ -93,6 +93,7 @@
 }
 .box input[type="text"], .box input[type="password"]
 {
+	color: white;
 	border:0;
 	background:none;
 	display:block;
@@ -102,7 +103,6 @@
 	padding: 14px 10px;
 	width:%30px;
 	outline:none;
-	color:white;
 	border-radius: 24px;
 	transition:0.25s;
 }
@@ -122,18 +122,18 @@
 	padding: 14px 40px;
 	width:200px;
 	outline:none;
-	color:white;
+	color:#3498db;
 	border-radius: 24px;
 	transition:0.25s;
 	font-size:20px;
 }
 .box input[type="submit"]:hover{
-	background:#2ecc71
+	background:#2ecc71;
 }
 .özgecmisGenel{
 		width:%100;
 	background-color:#390f06;
-	height:580px;
+	height:600px;
 	margin:0 auto;
 
 }
@@ -185,7 +185,7 @@
 {
 	width:%100;
 	background-color:#3e3736;
-	height:580px;
+	height:600px;
 	margin:0 auto;
 
 }
@@ -240,7 +240,7 @@
 .genelMiras{
 	width:%100;
 	background-color:#7c9993;
-	height:580px;
+	height:600px;
 	margin:0 auto;
 }
 .miras h1 {
@@ -277,11 +277,11 @@
 .genelİlet {
 		width:%100;
 	background-color:#716769;
-	height:580px;
+	height:600px;
 	margin:0 auto;
 }
 .ulasin {
-		width:600px;
+		width:400px;
 	height:250px;
 	padding:0px;
 	position:absolute;
@@ -294,13 +294,13 @@
 .ulasin h1 {
 	color:	#263238;
 	margin-top:0px;
-   font-size:30px;
+   font-size:18px;
    text-align:center;
 }
 .ulasin h2 {
 	color:	#2F4F4F;
 	margin-top:0px;
-   font-size:30px;
+   font-size:18px;
    text-align:left;
 }
 .linkler{
@@ -315,7 +315,7 @@
     position:absolute;
 	top:-30%;
 	left:75%;
-	margin-left:420px;
+	margin-left:410px;
 }
 .logo2 img {
 	width:50px;
@@ -335,40 +335,16 @@
 	margin-left:450px;
 	
 }
-.row
-{
-	margin-left:500px;
+.ulasim
+{	width:400px;
+	height:350px;
+	padding:20px;
+	position:absolute;
+    top:20%;
+	margin-left: 850px;
+	font-size:12px;
+	
 }
- .carousel-item{
-    height: 325px;
- }
- .aboutMe{
-    background: #fff;
-    padding: 32px;
-    border-radius: 8px;
-    height: 400px;
-    margin-bottom: 1rem;
-    border: 1px solid aquamarine;
-	margin-left: 100px;
-}
-
-.aboutMe h5{
-    text-decoration: underline;
-}
-
-.aboutMe .img-content{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.aboutMe .img-content img{
-    height: 100%;
-    border-radius: 8px;
-}
-
 
 
 
